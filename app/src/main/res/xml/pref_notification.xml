@@ -1,0 +1,35 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        app:key="show"
+        android:summaryOff="Hidden"
+        android:summaryOn="Show"
+        android:title="coool" />
+
+    <EditTextPreference
+        android:defaultValue="coool"
+        android:key="asd"
+        android:title="username"
+
+        />
+
+
+    <ListPreference
+        android:defaultValue="a"
+        android:entries="@array/relationship_labels"
+        android:entryValues="@array/relationship_labels"
+        android:key="ssdfsd"
+        android:title="select"
+        />
+
+
+    <SwitchPreferenceCompat
+        android:defaultValue="true"
+        android:key="PromoNotificationOnOff"
+        android:title="sdfsdfsdf"
+        />
+
+
+</PreferenceScreen>

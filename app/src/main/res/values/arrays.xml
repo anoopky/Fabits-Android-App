@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="relationship_labels">
+        <item>Single</item>
+        <item>Committed</item>
+        <item>Complicated</item>
+    </array>
+
+    <array name="relationship_values">
+        <item>Single</item>
+        <item>Committed</item>
+        <item>Complicated</item>
+    </array>
+
+    <array name="privacy_labels">
+        <item>Private</item>
+        <item>Public</item>
+    </array>
+
+    <array name="privacy_values">
+        <item>Private</item>
+        <item>Public</item>
+    </array>
+
+    <array name="boolean_labels">
+        <item>Yes</item>
+        <item>No</item>
+    </array>
+
+    <array name="boolean_values">
+        <item>Yes</item>
+        <item>No</item>
+    </array>
+
+</resources>

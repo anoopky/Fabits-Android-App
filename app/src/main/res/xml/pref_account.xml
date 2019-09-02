@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <EditTextPreference
+        android:key="S_USERNAME"
+        android:layout="@layout/mylayout"
+        android:summary=""
+        android:title="Username"
+        />
+
+    <EditTextPreference
+        android:key="S_EMAIL"
+        android:layout="@layout/mylayout"
+        android:summary="-"
+        android:title="Email"
+        />
+
+    <EditTextPreference
+        android:key="S_FACEBOOK"
+        android:layout="@layout/mylayout"
+        android:summary="-"
+        android:title="Facebook"
+        />
+
+    <EditTextPreference
+        android:key="S_WHATSAPP"
+        android:layout="@layout/mylayout"
+        android:summary="-"
+        android:title="Whatsapp"
+
+        />
+    <EditTextPreference
+        android:key="S_LOCATION"
+        android:layout="@layout/mylayout"
+        android:summary="-"
+        android:title="Location"
+
+        />
+
+    <ListPreference
+        android:entries="@array/relationship_labels"
+        android:entryValues="@array/relationship_values"
+        android:key="S_RELATIONSHIP"
+        android:layout="@layout/mylayout"
+        android:summary="-"
+        android:title="Relationship"
+        />
+</PreferenceScreen>

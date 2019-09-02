@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorFloatingActionBarAccent">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="primary_light">#BBDEFB</color>
+    <color name="colorAccent">#0275D8</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="loginBackground">#0275D8</color>
+    <color name="white">#ffffff</color>
+    <color name="danger">#d9534f</color>
+    <color name="success">#5cb85c</color>
+    <color name="online">#13CF13</color>
+    <color name="warning">#f0ad4e</color>
+    <color name="following">#d35400</color>
+    <color name="views">#818a91</color>
+    <color name="light">#aab8c2</color>
+    <color name="lightest">#08000000</color>
+    <color name="lightest_header">#25000000</color>
+    <color name="lightest_border">#21000000</color>
+    <color name="M_light">#05000000</color>
+    <color name="love">#c0392b</color>
+    <color name="lightestv1">#01000000</color>
+    <color name="lightestv2">#01000000</color>
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:entries="@array/boolean_labels"
+        android:entryValues="@array/boolean_values"
+        android:layout="@layout/mylayout"
+        android:summary="-"
+        android:key="S_A_LOGIN"
+        android:title="Login"
+        />
+
+    <ListPreference
+        android:entries="@array/boolean_labels"
+        android:entryValues="@array/boolean_values"
+        android:key="S_A_MESSAGE"
+        android:layout="@layout/mylayout"
+        android:summary="-"
+        android:title="Messages"
+        />
+
+    <ListPreference
+        android:entries="@array/boolean_labels"
+        android:entryValues="@array/boolean_values"
+        android:key="S_A_NOTIFICATION"
+        android:layout="@layout/mylayout"
+        android:summary="-"
+        android:title="Notifications"
+        />
+
+    <ListPreference
+        android:entries="@array/boolean_labels"
+        android:entryValues="@array/boolean_values"
+        android:key="S_A_ANONY_MESSAGE"
+        android:layout="@layout/mylayout"
+        android:summary="-"
+        android:title="Anonymous Messages"
+        />
+
+</PreferenceScreen>

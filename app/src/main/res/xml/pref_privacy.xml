@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <ListPreference
+        android:entries="@array/privacy_labels"
+        android:entryValues="@array/privacy_values"
+        android:layout="@layout/mylayout"
+        android:summary="-"
+        android:key="S_P_PHONE"
+        android:title="Phone Number"
+        />
+
+    <ListPreference
+        android:entries="@array/privacy_labels"
+        android:entryValues="@array/privacy_values"
+        android:key="S_P_FOLLOWERS"
+        android:layout="@layout/mylayout"
+        android:summary="-"
+        android:title="Followers"
+        />
+
+    <ListPreference
+        android:entries="@array/privacy_labels"
+        android:entryValues="@array/privacy_values"
+        android:key="S_P_FOLLOWING"
+        android:layout="@layout/mylayout"
+        android:summary="-"
+        android:title="Following"
+        />
+
+    <ListPreference
+        android:entries="@array/privacy_labels"
+        android:entryValues="@array/privacy_values"
+        android:key="S_P_FACEMATCH"
+        android:layout="@layout/mylayout"
+        android:summary="-"
+        android:title="Facematch"
+        />
+</PreferenceScreen>
